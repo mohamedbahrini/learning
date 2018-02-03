@@ -1,0 +1,6 @@
+INSERT INTO PRODUCT VALUES (null, 'pain', '230');
+INSERT INTO PRODUCT VALUES (null, 'lait', '1200');
+INSERT INTO PRODUCT VALUES (null, 'chocolat', '3000');
+
+INSERT INTO INVENTORY (name, space) VALUES ('depot1', 500L);
+INSERT INTO INVENTORY (name, space) VALUES ('depot2', 130L);
