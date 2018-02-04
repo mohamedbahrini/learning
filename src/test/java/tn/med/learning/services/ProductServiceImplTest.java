@@ -31,6 +31,6 @@ public class ProductServiceImplTest {
 	}
 	@Test
 	public void getProductByName() {
-		assertEquals("name", productServiceImpl.getProductByName("ss").get().getName());
+		assertEquals("name", productServiceImpl.getProductByName("ss").get());
 	}
 }
